@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Relative_Layout_Activity">
+
+    
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/yellow"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:background="@color/yellow"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/yellow"
+       android:layout_alignParentBottom="true"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/yellow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@id/tv2"/>
+
+  <androidx.appcompat.widget.AppCompatTextView
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:background="@color/yellow"
+      android:layout_centerVertical="true"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/yellow"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@id/view1"
+        android:layout_alignEnd="@id/view1"
+        android:background="@color/blue"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="70dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@color/blue"
+        android:layout_alignLeft="@id/view1"
+        android:layout_alignBottom="@id/view1"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="55dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignTop="@id/view1"
+        android:layout_alignEnd="@id/view1"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/blue"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@color/blue"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="55dp"
+        android:layout_alignStart="@id/view1"
+        android:layout_alignTop="@id/view1"/>
+
+    <Button
+        android:id="@+id/view1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pic2" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
